@@ -44,7 +44,7 @@
 		.search__btn{
 			width: 10vw;
 			background-color: white;
-			background-image: url('img/send.svg');
+			background-image: url('./img/send.svg');
 			background-size: 55% auto;
 			background-repeat: no-repeat;
 			background-position: center;
