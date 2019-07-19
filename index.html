@@ -8,11 +8,23 @@
 	<title>Weather</title>	
 </head>
 <body>
-	<div class="search">
-		<input type="text" name="search" placeholder="example london" class="search__box">
-		<button class="search__btn"></button>
+	<div class="header">
+		<div class="search">
+			<input type="text" name="search" placeholder="example london" class="search__box">
+			<button class="search__btn"></button>
+		</div>
+		<p class="searchBy__text">Search by 
+			<select class="searchBy">
+				<option value="place">Place</option>
+				<option value="zipCode">Zip Code</option>
+				<option value="coordinates">Coordinates</option>
+			</select>
+		</p>
 	</div>
-	<div class="weather"> <!-- Container of the displayed information -->
+	
+
+	
+	<div class="weather"><!-- Container of the displayed information -->
 	</div>
 
 	<script type="text/javascript" src="bundle.js"></script>
