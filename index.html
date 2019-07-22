@@ -8,21 +8,25 @@
 	<title>Weather</title>	
 </head>
 <body>
+	<div class="modal">
+		<p class="modal__text">Search by zip code it's more exactly than search by name.<br>
+		The app works fine with popular countries</p>
+		<button class="modal__close">Close</button>
+	</div>
+	
 	<div class="header">
 		<div class="search">
 			<input type="text" name="search" placeholder="example london" class="search__box">
 			<button class="search__btn"></button>
 		</div>
+		
 		<p class="searchBy__text">Search by 
 			<select class="searchBy">
-				<option value="place">Place</option>
+				<option value="name">Name</option>
 				<option value="zipCode">Zip Code</option>
-				<option value="coordinates">Coordinates</option>
 			</select>
 		</p>
 	</div>
-	
-
 	
 	<div class="weather"><!-- Container of the displayed information -->
 	</div>
